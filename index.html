@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title id="pageTitle">Certificados en tu Celular</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="mobile-site">
+
+    <header class="brand-header">
+      <div class="brand-row">
+        <img id="logoPrincipal" class="brand-logo" src="assets/logo.png" alt="Logo">
+        <div class="brand-name" id="brandName">
+          <span class="brand-blue">Tu</span><span class="brand-red">Marca</span>
+        </div>
+      </div>
+
+      <h1 id="mainTitle">Certificados en tu Celular</h1>
+      <p class="section-link" id="validationTitle">Validación de Certificado</p>
+    </header>
+
+    <section class="validation-card">
+      <p>
+        <span id="entityName">Ministerio de Educación</span> confirma que el certificado
+        en consulta es un documento válido y vigente.
+        <br>
+        <a href="https://www.mineduc.cl/">Ver más información</a>
+      </p>
+
+      <p>
+        Verifique que el certificado presentado contenga la misma información que el
+        documento que se muestra a continuación.
+      </p>
+
+      <div class="pdf-box">
+        <div class="pdf-label">getPdf</div>
+        <a id="openPdfButton" class="open-button" href="documento.pdf" target="_blank">Abrir</a>
+      </div>
+
+      <p class="copy-text">
+        Si no puede ver el Certificado mas arriba, pinche aquí para abrir en una nueva ventana:
+      </p>
+
+      <div class="actions-right">
+        <a id="copyButton" class="small-button" href="documento.pdf" target="_blank"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+  <path fill="currentColor" d="M6 2h8l4 4v16H6V2zm8 1.8V7h3.2L14 3.8z"/>
+</svg> Ver Copia</a>
+      </div>
+    </section>
+
+    <div class="portal-row">
+      <a class="portal-button" id="portalButton" href="https://www.mineduc.cl/"><svg class="btn-icon home-icon" viewBox="0 0 24 24" aria-hidden="true">
+  <path fill="currentColor" d="M12 3 2 12h3v9h6v-6h2v6h6v-9h3L12 3z"/>
+</svg> Volver al Portal</a>
+    </div>
+
+    <footer class="footer">
+      <img id="logoFooter" class="footer-logo" src="assets/logo-footer.png" alt="Logo inferior">
+      <p><strong id="footerEntity">Tu institución</strong></p>
+      <p id="footerArea">Área de Certificados</p>
+      <p id="footerAddress">Dirección institucional</p>
+      <p id="footerPhone">Teléfono: +56 0 0000 0000</p>
+      <p id="footerVersion">Versión 1.0</p>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

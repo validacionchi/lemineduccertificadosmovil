@@ -1,0 +1,21 @@
+REVISIÓN PREVIA MÓVIL
+
+Esta copia conserva la nomenclatura observada en el video de referencia:
+- AyudaMineduc
+- Certificados en tu Celular
+- Validación de Certificado
+- Ministerio de Educación
+- Gobierno de Chile
+- Dirección: Av. Libertador Bernardo O'Higgins 1371.
+- Teléfono: +56 2 24066000
+- Versión 1.38.0
+- Ver más información
+- getPdf
+- Abrir
+- Ver Copia
+- Volver al Portal
+
+Los logos quedan como placeholders para cambiarlos después por los tuyos.
+
+Esta copia está preparada como maqueta local de revisión. Para una publicación pública,
+conviene sustituir identidad institucional real por tu marca o identificarla como prototipo.
